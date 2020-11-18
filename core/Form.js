@@ -23,6 +23,7 @@ class Form {
         button.mousePressed(function() {
             input.hide();
             button.hide();
+            displayId.hide();
 
             var name = input.value();
 
